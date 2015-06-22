@@ -1,8 +1,67 @@
 @import url(//fonts.googleapis.com/css?family=Titan+One);
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {color:#333;} /* unvisited link */
+a:visited {color:#333;} /* visited link */
+a:hover {color:#ff9955; text-shadow: 2px 2px #d45500;} /* mouse over link */
+a:active {color:#333;} /* selected link */
 
 body {
 	font-family: 'Titan One', cursive;
+	background-color: #FFF;
+	color: #333;
+}
+
+#wrap {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 75%;
+
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	height: 65%;
+}
+
+#content {
+	height: auto;
+	width: auto;
+}
+
+#content h1 {
+	font-size: 5em;
+}
+
+#footer {
+	margin-top: 1%;
+}	
+
+.row ul {
+	list-style-type: none;
+}
+
+.row ul li {
+	display: inline;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.row ul li a {
+	font-size: 2em;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
 }
 
 .digitalocean {
@@ -16,13 +75,5 @@ body {
 	margin-right: auto;
 	margin-top: 1%;
 	height: 5%;
-	margin-top: 1%;
-}
-
-.menu a {
-	text-decoration: none;
-	display: inline-block;
-}
-.menu span.fa-stack {
-	font-size: 64px;
+        margin-top: 1%;
 }
